@@ -14,7 +14,7 @@
              D O W N L O A D E R 
 ```
 
-# Table Of Content
+## Table Of Content
    1. [Giới thiệu](#-yt-dlp-với-giao-diện-tui)
    2. [Screenshot](#-screenshot)
    3. [Tính năng](#-tính-năng)
@@ -22,19 +22,18 @@
       - [Cách tải](#-cách-tải)
       - [Cách sử dụng](#-cách-dùng)
    5. [Vấn đề đã biết](#-vấn-đề-đã-biết)
-   6. [Yapping](#-yapping)
 
 
 # 😋 YT-DLP với giao diện TUI
 ![Menu](screenshot/menu.png)
 
-Vài một ngày đẹp trời nào đó, tôi đang tìm trang web phù hợp với mình để tải video youtube thì phát hiện [yt-dlp][1]. Quá ngon, tôi liền tải về và thử nó một thời gian thì nhận ra: yt-dlp không chỉ có download video mà còn có thể lựa chọn format, chỉnh resolution, cắt video trực tiếp, ... Nhưng với bộ não cá vàng của tôi thì việc nhớ cách dùng là không thể.
+Vài một ngày đẹp trời nào đó, tôi đang tìm trang web phù hợp với mình để tải video youtube thì phát hiện [yt-dlp][1]. Quá ngon, tôi liền tải về và thử nó một thời gian thì nhận ra: `yt-dlp` không chỉ có download video mà còn có thể lựa chọn format, chỉnh resolution, cắt video trực tiếp, ... Nhưng với bộ não cá vàng của tôi thì việc nhớ đến đống câu lệnh vô cảm là không thể.
 
-Sau đó, tôi dành khá nhiều thời gian để tìm các công cụ dùng yt-dlp có chứa các tính năng trên để sử dụng, tuy nhiên đa số đều không có, hoặc nếu có thì hoạt động quá chậm, kém hiệu quả và có lúc chả hoạt động.
+Sau đó, tôi dành khá nhiều thời gian để tìm các công cụ dùng `yt-dlp` có chứa các tính năng trên để sử dụng, tuy nhiên đa số đều không có, hoặc nếu có thì hoạt động quá chậm, kém hiệu quả và có lúc chả hoạt động.
 
-Và một ý tưởng hiện ra trong đầu tôi: thay vì tìm kiếm trên mạng thì sao mình không tự làm đi nhỉ. Sau đó tôi liền bắt tay vào làm cùng con Gemini của Google. Tham khảo code, giao diện và idea từ nhiều nguồn, tôi đã tạo ra được sản phẩm như này :DD
+Và một ý tưởng hiện ra trong đầu tôi: thay vì tìm kiếm trên mạng thì sao mình không tự làm đi nhỉ. Sau đó tôi liền bắt tay vào làm cùng con Gemini của Google. Tham khảo code, giao diện và idea từ nhiều nguồn, tôi đã tạo ra `YT-DLP downloader` :DD
 
-## 📷 Screenshot
+# 📷 Screenshot
    _Nhập link_
 ![Thêm link](screenshot/add-link.png)
 
@@ -47,50 +46,84 @@ Và một ý tưởng hiện ra trong đầu tôi: thay vì tìm kiếm trên m�
   _Kết quả_
 ![:>>](screenshot/end.png)
 
-## 🚀 Tính năng
+# 🚀 Tính năng
 
-Như đã nói ở trên thì YT-DLP downloader sẽ chứa các tính năng mà tôi muốn và có thể tiếp cận bằng yt-dlp
+Như đã nói ở trên thì `YT-DLP downloader` sẽ chứa các tính năng mà tôi muốn và có thể tiếp cận bằng `yt-dlp`
 
-**Tính năng cơ bản**
+### Tính năng cơ bản
 - Tải media từ 1000+ các trang khác nhau
 > (nó nói thế chứ tôi kbt nữa, tôi chỉ dùng để tải video youtube với facebook thôi 🐧)
 - Giao diện thân thiện với ~~tôi~~ người dùng
 - Cho phép chuyển đổi qua lại giữa mp3 / mp4
 - Cho phép tuỳ chỉnh chất lượng video
-- Các file tải về sẽ được bỏ vào thử mục "download"
+- Các file tải về sẽ được bỏ vào thư mục `download`
 
-**Tính năng nâng cao**
+### Tính năng nâng cao
 - Có thể cắt media bằng cách nhập thời gian bắt đầu / kết thúc
 - Cho phép tải được nhiều file chỉ trong một lần nhấp
 
-
-## 📦 Cách tải / sử dụng
-### 📥 Cách tải
+# 📦 Cách tải / sử dụng
+## 📥 Cách tải
 Bên dưới sẽ là những gì cần có và cách tải cụ thể
-#### ⚠ Yêu cầu thiết yếu
+### ⚠ Yêu cầu thiết yếu
 Đây là những thứ cần phải có để chương trình hoạt động:
-- [Python](https://www.python.org/) (v3.10+ đối với CPython / 3.11+ đối với PyPy)
-- [YT-DLP][1]
-- `ffmpeg` và `ffprobe`
+- [ ] [Python](https://www.python.org/) (v3.10+ đối với CPython / 3.11+ đối với PyPy)
+- [x] [YT-DLP][1]
+- [x] `ffmpeg` và `ffprobe`
 > `YT-DLP`, `ffmpeg` và `ffprobe` đã có sẵn nên chỉ cần tải thêm Python thôi
 
-#### 🏌️‍♀️ Installation
-- Step 1️⃣: Tải `ytdl-v-XXX.rar` mới nhất ở **Release** hoặc bấm vào [đây](https://github.com/NDKcute/YT-DLP_downloader/releases)
-- Step 2️⃣: Sau khi tải xong, giải nén `ytdl-v-XXX.rar` trên vào ổ đĩa `C:` sao cho đường dẫn đến `yt-dlp.exe` là `C:\ytdl\data`
-- Step 3️⃣: Vào `C:\ytdl`, mở `yt-dlp downloader.bat` và dùng thôi 🥳
+### 🏌️‍♀️ Installation
+- Step 1️⃣: Tải `ytdl-vX.X.rar` mới nhất ở **Release** hoặc bấm vào [đây](https://github.com/NDKcute/YT-DLP_downloader/releases)
+- Step 2️⃣: Giải nén file `ytdl-vX.X.rar` trên vào ổ đĩa `C:`
+- Step 3️⃣: Mở thư mục vừa giải nén, chạy file `yt-dlp downloader.bat` và dùng thôi 🥳
 
 ***
-### 🕹 Cách dùng
+## 🕹 Cách dùng
+```text
+                              __  ______     ____  __   ___
+                              \ \/ /_  _/   / __ \/ /  / _ \
+                               \  / / /  = / /_/ / /__/ ___/
+                               /_/ /_/     \____/____/_/
+                                   D O W N L O A D E R
 
+            ╭────────────┐┌─ [2] Nhập link ──────────────────┐┌─────────────╮
+            │ [1] mp4 v  ││ > ...                            ││ [3] 720p v  │
+            ╰────────────┘└──────────────────────────────────┘└─────────────╯
 
+                                    >>> (4) START <<<
 
+                  ╭───────────────────── TUỲ CHỌN ─────────────────────╮
+                  │                                                    │
+                  │  [5] Cắt media              [6] Tải từ links.txt   │
+                  │  [7] Mở thư mục tải về      [8] Cập nhật yt-dlp    │
+                  │  [9] Exit                                          │
+                  │                                                    │
+                  ╰────────────────────────────────────────────────────╯
 
+                                  Chọn chức năng (1-9):
+```
+Ở trên là **giao diện màn hình chính** của `YT-DLP downloader`
 
-## 🐞 Vấn đề đã biết
+- **\[1]**: Chuyển đổi qua lại format **mp3** và **mp4**
+- **\[2]**: Nơi để **dán link** cần tải, cho phép **tối đa 5 link** trong một lần tải. Nhấn `` ` `` để thoát thêm link | `x` để **xoá link** bằng cách nhập số thứ tự
+- **\[3]**: Thay đổi **chất lượng** của file mp4 (144p, 240p, 360p, 720p, 1080p, Best)
+> Đối với mp3: Tự động lấy chất lượng âm thanh tốt nhất
+- **\(4)**: **Bắt đầu** quá trình tải xuống
+- **\[5]**: **Cắt độ dài media** bằng cách nhập thời gian bắt đầu và thời gian kết thúc. Enter (không nhập gì) để cắt **từ đầu / tới cuối** | Định dạng **HH:MM:SS** hay **MM:SS** đều được
+- **\[6]**: **Tải không giới hạn link** trong một lần tải từ file `links.txt` trong đường dẫn `C:\ytdl`, mỗi link tương ứng với **một dòng**. **File được tải về sẽ nhận format và chất lượng ở \[1] và \[3]**
+- **\[7]**: Mở thư mục `download` chứa các file media được tải về
+- **\[8]**: **Kiểm tra phiên bản mới** của `yt-dlp`. Nên cho chạy định kì để luôn giữ cho `yt-dlp` mới nhất
+- **\[9]**: Thoát `YT-DLP downloader`
 
+Chỉ vậy thôi, giờ hãy test tool này với [video youtube](https://youtu.be/dQw4w9WgXcQ?si=geznY5C04ORgMH1J
+) này nào!!!
 
+# 🐞 Vấn đề đã biết
 
-# 🗣 Yapping
+_blank_
+
+***
+Do là lần đầu viết README.md nên có thể sẽ có sai sót. Cảm ơn mọi người đã đọc :>>
 
 
 
