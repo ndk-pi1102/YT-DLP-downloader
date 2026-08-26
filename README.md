@@ -15,6 +15,6 @@
 > * Tui là một coder chỉ mới học Py gần 2 tháng, nếu có lỗi gì mong ae chỉ bảo 🐧
 
 # YT-DLP với giao diện TUI
-![menu](https://cdn.discordapp.com/attachments/1440329906813796362/1542022049059442748/image.png?ex=6a8fb771&is=6a8e65f1&hm=9d83384063b065bac0c0b29043ee89353ac602748ed0384083e9a9641633bd8e&)
+![menu](https://github.com/NDKcute/test/blob/main/A%CC%89nh%20chu%CC%A3p%20ma%CC%80n%20hi%CC%80nh%20(2626).png)
 
   Vài một ngày đẹp trời nào đó, tôi đang tìm trang web phù hợp với mình để tải video youtube thì phát hiện ra 
