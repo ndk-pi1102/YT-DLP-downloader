@@ -71,18 +71,22 @@ Bên dưới sẽ là những gì cần có và cách tải cụ thể
 Đây là những thứ cần phải có để chương trình hoạt động:
 - [Python](https://www.python.org/) (v3.10+ đối với CPython / 3.11+ đối với PyPy)
 - [YT-DLP][1]
-- ```ffmpeg``` và ```ffprobe```
-> ```YT-DLP```, ```ffmpeg``` và ```ffprobe``` đã có sẵn nên chỉ cần tải thêm Python thôi
+- `ffmpeg` và `ffprobe`
+> `YT-DLP`, `ffmpeg` và `ffprobe` đã có sẵn nên chỉ cần tải thêm Python thôi
 
 #### 🏌️‍♀️ Installation
+- Step 1️⃣: Tải `ytdl-v-XXX.rar` mới nhất ở **Release** hoặc bấm vào [đây](https://github.com/NDKcute/YT-DLP_downloader/releases)
+- Step 2️⃣: Sau khi tải xong, giải nén `ytdl-v-XXX.rar` trên vào ổ đĩa `C:` sao cho đường dẫn đến `yt-dlp.exe` là `C:\ytdl\data`
+- Step 3️⃣: Vào `C:\ytdl`, mở `yt-dlp downloader.bat` và dùng thôi 🥳
+
+***
+### 🕹 Cách dùng
 
 
-## 🕹 Cách dùng
 
 
 
-
-# 🐞 Vấn đề đã biết
+## 🐞 Vấn đề đã biết
 
 
 
