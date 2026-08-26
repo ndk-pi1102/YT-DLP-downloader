@@ -6,13 +6,15 @@
 > * Tool này có sự đóng góp (chắc là khá nhiều) từ AI, nhưng không phải toàn bộ là AI mà tui cũng có đóng góp nhé
 > * Tui là một coder chỉ mới học Py gần 2 tháng, nếu có lỗi gì mong ae chỉ bảo 🐧
 ***
-```text
-         __  _______    ____  __   ___   
-         \ \/ /_  _/   / __ \/ /  / _ \  
-          \  / / /  = / /_/ / /__/ ___/  
-          /_/ /_/     \____/____/_/      
-             D O W N L O A D E R 
-```
+<p align="center">
+<pre align="center">
+  __  _______    ____  __   ___   
+  \ \/ /_  _/   / __ \/ /  / _ \  
+   \  / / /  = / /_/ / /__/ ___/  
+   /_/ /_/     \____/____/_/      
+      D O W N L O A D E R      
+</pre>
+</p>
 
 ## Table Of Content
    1. [Giới thiệu](#-yt-dlp-với-giao-diện-tui)
@@ -77,7 +79,7 @@ Bên dưới sẽ là những gì cần có và cách tải cụ thể
 - Step 2️⃣: Giải nén file `ytdl-vX.X.rar` trên vào ổ đĩa `C:`
 - Step 3️⃣: Mở thư mục vừa giải nén, chạy file `yt-dlp downloader.bat` và dùng thôi 🥳
 
-***
+
 ## 🕹 Cách dùng
 ```text
                               __  ______     ____  __   ___
