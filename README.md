@@ -25,7 +25,7 @@
 
 
 # 😋 YT-DLP với giao diện TUI
-![Menu](screenshot/menu.png)
+![Menu](screenshot/main-menu(1).png)
 
 Vài một ngày đẹp trời nào đó, tôi đang tìm trang web phù hợp với mình để tải video youtube thì phát hiện [yt-dlp][1]. Quá ngon, tôi liền tải về và thử nó một thời gian thì nhận ra: `yt-dlp` không chỉ có download video mà còn có thể lựa chọn format, chỉnh resolution, cắt video trực tiếp, ... Nhưng với bộ não cá vàng của tôi thì việc nhớ đến đống câu lệnh vô cảm là không thể.
 
@@ -35,16 +35,16 @@ Và một ý tưởng hiện ra trong đầu tôi: thay vì tìm kiếm trên m�
 
 # 📷 Screenshot
    _Nhập link_
-![Thêm link](screenshot/add-link.png)
+![Thêm link](screenshot/nhap-link.png)
 
    _Chọn quality_
-![Chọn chất lượng](screenshot/choose-quality.png)
+![Chọn chất lượng](screenshot/chon-quality.png)
 
    _Cắt video_
-![Cắt media](screenshot/trim-video.png)
+![Cắt media](screenshot/trim-media.png)
 
   _Kết quả_
-![:>>](screenshot/end.png)
+![:>>](screenshot/result.png)
 
 # 🚀 Tính năng
 
