@@ -78,7 +78,7 @@ Bên dưới sẽ là những gì cần có và cách tải cụ thể
 > `YT-DLP`, `ffmpeg` và `ffprobe` đã có sẵn nên chỉ cần tải thêm Python thôi
 
 ### 🏌️‍♀️ Installation
-- Step 1️⃣: Tải `ytdl-vX.X.rar` mới nhất ở **Release** hoặc bấm vào [đây](https://github.com/NDKcute/YT-DLP_downloader/releases)
+- Step 1️⃣: Tải `ytdl-vX.X.rar` mới nhất ở **Release** hoặc bấm vào [đây](https://github.com/NDKcute/YT-DLP-downloader/releases)
 - Step 2️⃣: Giải nén file `ytdl-vX.X.rar` trên vào ổ đĩa `C:`
 - Step 3️⃣: Mở thư mục vừa giải nén, chạy file `yt-dlp downloader.bat` và dùng thôi 🥳
 
