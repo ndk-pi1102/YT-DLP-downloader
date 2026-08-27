@@ -27,8 +27,10 @@
 
 
 # 😋 YT-DLP với giao diện TUI
-![Menu](screenshot/main-menu(1).png)
-
+<p align="center">
+  <img width="80%" alt="Main menu" src="https://github.com/user-attachments/assets/14b7e1d6-24dc-4b99-8c8b-8e315aecc979" />
+</p>
+  
 Vài một ngày đẹp trời nào đó, tôi đang tìm trang web phù hợp với mình để tải video youtube thì phát hiện [yt-dlp][1]. Quá ngon, tôi liền tải về và thử nó một thời gian thì nhận ra: `yt-dlp` không chỉ có download video mà còn có thể lựa chọn format, chỉnh resolution, cắt video trực tiếp, ... Nhưng với bộ não cá vàng của tôi thì việc nhớ đến đống câu lệnh vô cảm là không thể.
 
 Sau đó, tôi dành khá nhiều thời gian để tìm các công cụ dùng `yt-dlp` có chứa các tính năng trên để sử dụng, tuy nhiên đa số đều không có, hoặc nếu có thì hoạt động quá chậm, kém hiệu quả và có lúc chả hoạt động.
@@ -36,17 +38,18 @@ Sau đó, tôi dành khá nhiều thời gian để tìm các công cụ dùng `
 Và một ý tưởng hiện ra trong đầu tôi: thay vì tìm kiếm trên mạng thì sao mình không tự làm đi nhỉ. Sau đó tôi liền bắt tay vào làm cùng con Gemini của Google. Tham khảo code, giao diện và idea từ nhiều nguồn, tôi đã tạo ra `YT-DLP downloader` :DD
 
 # 📷 Screenshot
-   _Nhập link_
-![Thêm link](screenshot/nhap-link.png)
+  
 
-   _Chọn quality_
-![Chọn chất lượng](screenshot/chon-quality.png)
-
-   _Cắt video_
-![Cắt media](screenshot/trim-media.png)
-
-  _Kết quả_
-![:>>](screenshot/result.png)
+<p align="center">
+  <img width="80%" alt="nhap-link" src="https://github.com/user-attachments/assets/8e127a34-56d4-4d58-882d-77bf85eff25d" /><br>
+  <i>Nhập link</i><br><br>
+  <img width="80%" alt="chon-quality" src="https://github.com/user-attachments/assets/113ba014-366f-4830-a785-978226c34b6e" /><br>
+  <i>Chọn chất lượng media</i><br><br>
+  <img width="80%"" alt="trim-media" src="https://github.com/user-attachments/assets/0312b5c9-419e-4c23-8723-1ea484b571ba" /><br>
+  <i>Cắt media</i><br><br>
+  <img width="80%" alt="result" src="https://github.com/user-attachments/assets/89d8033a-14f0-4d5c-a22d-b012cc13d84f" /><br>
+  <i>Hoàn thiện</i><br><br>
+</p>
 
 # 🚀 Tính năng
 
