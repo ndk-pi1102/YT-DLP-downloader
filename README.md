@@ -72,7 +72,7 @@ Như đã nói ở trên thì `YT-DLP downloader` sẽ chứa các tính năng m
 Bên dưới sẽ là những gì cần có và cách tải cụ thể
 ### ⚠ Yêu cầu thiết yếu
 Đây là những thứ cần phải có để chương trình hoạt động:
-- [ ] [Python](https://www.python.org/) (v3.10+ đối với CPython / 3.11+ đối với PyPy)
+- [ ] [Python](https://www.python.org/) v3.10+
 - [x] [YT-DLP][1]
 - [x] `ffmpeg` và `ffprobe`
 > `YT-DLP`, `ffmpeg` và `ffprobe` đã có sẵn nên chỉ cần tải thêm Python thôi
