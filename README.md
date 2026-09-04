@@ -120,8 +120,8 @@ Bên dưới sẽ là những gì cần có và cách tải cụ thể
 - **\[8]**: **Kiểm tra phiên bản mới** của `yt-dlp`. Nên cho chạy định kì để luôn giữ cho `yt-dlp` mới nhất
 - **\[9]**: Thoát `YT-DLP downloader`
 
-Chỉ vậy thôi, giờ hãy test tool này với [video youtube](https://youtu.be/dQw4w9WgXcQ?si=geznY5C04ORgMH1J
-) này nào!!!
+<p>Chỉ vậy thôi, giờ hãy test tool này với <a href="https://youtu.be/dQw4w9WgXcQ?si=geznY5C04ORgMH1J" target="_blank">video Youtube</a>
+ này nào!!!</p>
 
 # 🐞 Vấn đề đã biết
 
