@@ -1,6 +1,7 @@
 > [!CAUTION]
 > * This entire README is written in Vietnamese, as my English is quite poor
 > * However, I may add other languages ​​in the future if possible
+> * Hiện tại tôi không thể tải file rar của mình lên (vì vài lí do). Sẽ tìm cách thay thế...
 
 > [!NOTE]
 > * Tool này có sự đóng góp (chắc là khá nhiều) từ AI, nhưng không phải toàn bộ là AI mà tui cũng có đóng góp nhé
